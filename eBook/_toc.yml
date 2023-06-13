@@ -1,0 +1,30 @@
+format: jb-book
+root: index
+parts:
+    - caption:
+      chapters:
+      - file: content/110_introduction
+      - file: content/120_the_publication
+      - file: content/130_the_metadata
+
+    - caption: THE DATASCIENCE PROCESS
+      chapters:
+      - file: content/140_the_science
+      - file: content/141_account_management
+      - file: content/142_data_extraction
+      - file: content/143_data_cleansing
+
+    - caption: FOLLOW UP
+      chapters:
+      - file: content/180_suggestions
+      
+    - caption: APPENDICES
+      chapters:
+      - file: content/A_bibliography
+      - file: content/B_glossary
+      - file: content/C_supporting_notebooks
+      - file: docs/how_to_write_ebook_content
+      
+# - file: docs/python_by_example
+# - file: docs/getting_started
+# - file: docs/about_py

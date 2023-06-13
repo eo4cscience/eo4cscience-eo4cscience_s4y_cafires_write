@@ -1,0 +1,54 @@
+title : EO for Citizen Science eBook Template
+author: Raynier A. van Egmond
+logo: 'logo_eo4cscience.png'
+copyright: "2023"  # Copyright year to be placed in the footer
+
+# Short description about the book
+description: >-
+  A template for EO4CSC eBooks in the curriculum.
+
+execute:
+  execute_notebooks           : cache
+
+# HTML-specific settings
+html:
+  home_page_in_navbar         : false
+
+# MYST_NB Parser extensions
+parse:
+  myst_enable_extensions: # default extensions to enable in the myst parser. See https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
+    - amsmath
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_admonition
+    - html_image
+    - replacements
+    - smartquotes
+    - substitution
+    - tasklist
+    
+sphinx:
+  config:
+    bibtex_reference_style: author_year
+    html_js_files: ['https://kit.fontawesome.com/b0054b5d5d.js'] # include personal fontawesome kit code
+
+# Interact link settings
+notebook_interface            : "notebook"
+
+# Launch button settings
+repository:
+  url                         : https://github.com/executablebooks/quantecon-mini-example
+  path_to_book                : "eBook"
+
+binder:
+  binderhub_url               : "https://mybinder.org"
+  text                        : "Launch binder"
+
+# LaTeX settings
+bibtex_bibfiles:
+   - _bibliography/references.bib
+latex:
+  latex_engine                : "xelatex"
+  latex_documents:
+    targetname: book.tex
