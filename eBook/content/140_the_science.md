@@ -18,10 +18,11 @@ kernelspec:
 Because we want the content of the pages to be dynamic we need to build up the "Python environment" for the executable code-cells in the page. While the namespace of the code-cells is the running kernel I prefer to keep the chapter files self-contained. This means that  each page will start with a code-cell that imports the Python libraries that are required for that page.
 
 ```{tip}
-The purpose of this chapter is to guide the reader through the entire process of reproducing the results on which the article was based. Unlike "THE PUBLICATION" segment there is a lot of content in this chapter and we will need many markdown files to setup and rund the Python code. This means that there will be sub-pages for THE SCIENCE segment of the publication.
+The purpose of this chapter is to guide the reader through the entire process of reproducing the results on which the article was based. Unlike "THE PUBLICATION" segment there is a lot of content in this chapter and we will need many markdown files to setup and rund the Python code. This means that there will be sub-pages for THE SCIENCE segment of the publication. **There is a hidden full code cell at the top of this page**. 
 ```
 
-```{code-cell} python3
+```{code-cell}
+:tags: [remove-cell]
 import matplotlib.pyplot as plt        # this provides a shortcut alias for the plotting functions
 import matplotlib                      # this makes graphing and plotting features available to the chapter code
 from myst_nb import glue               # this is used to support references between markdown and code

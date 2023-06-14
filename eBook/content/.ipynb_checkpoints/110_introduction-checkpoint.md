@@ -12,13 +12,14 @@ kernelspec:
 # 1. INTRODUCTION
 
 
-## HINT - Writer Guide
+## 
 
-```{tip}
+```{admonition} HINT - WRITER GUIDE
+:class: tip
 this is the introduction to the content of the publication and is where the reader is presented with the overview of the publication. It sets the general introduction and stages the "three-components" of the publication. The main purpose of the introduction page is to grab the reader with the relevance on why to proceed with reading or working with the document. This content is independent of the "reader-first" or "science-first" separation.
 ```
 
-<font color='red'>...PLACE YOUR ARTICLE SUMMARY AT THIS LOCATION...<br>This is the same content as from the 120_page summary.</font>
+<font color='teal'>...PLACE YOUR ARTICLE SUMMARY AT THIS LOCATION...<br>This is the same content as from the 120_page summary.</font>
 
 
 ## Reader Guide

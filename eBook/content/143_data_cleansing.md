@@ -11,7 +11,7 @@ kernelspec:
   name: python3
 ---
 
-# 4.3 Data cleansing
+# 4.3 Data cleaning
 
 Because we want the content of the pages to be dynamic we need to build up the "Python environment" for the executable code-cells in the page. While the namespace of the code-cells is the running kernel I prefer to keep the chapter files self-contained. This means that  each page will start with a code-cell that imports the Python libraries that are required for that page.
 

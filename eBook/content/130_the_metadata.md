@@ -26,3 +26,8 @@ Sentinel-xxx
 
 DAAC-xxx
 : for each repository provide the files and datasets used 
+
+## SOFTWARE LIBRARIES
+
+library_xyz
+: for the main Python libraries and applications we provide the version information.
